@@ -1,6 +1,6 @@
 var DBconfigs = {
     localdb: {
-        urldb : 'mongodb+srv://Proplayer:ZseZxcJUBjGtLQ0y@cluster0.9yrzf.mongodb.net/<ExampleDB>?retryWrites=true&w=majority',
+        urldb : 'mongodb+srv://Toan123:Toan123@cluster0.9yrzf.mongodb.net/ExampleDB?retryWrites=true&w=majority',
         dbname : "ExampleDB",
         dbusername : "",
         dbpassword : "",
