@@ -28,7 +28,7 @@ app.set('view engine', 'ejs');
 /// 					 		Config
 /// ................................................................
 /// Tham số
-const PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 app.listen(PORT)
 
 /// ------------------ Khai bao cac Folder Tĩnh, Session, Cookies
