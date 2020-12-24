@@ -21,7 +21,7 @@ var bodyParser = require('body-parser');
 /// ................................................................
 app.set('views', path.join( __dirname, 'views'));
 app.set('view engine', 'ejs');
-app.listen(PORT)
+
 
 
 /// ................................................................
@@ -29,6 +29,7 @@ app.listen(PORT)
 /// ................................................................
 /// Tham số
 const PORT = process.env.PORT || 8080;
+app.listen(PORT)
 
 /// ------------------ Khai bao cac Folder Tĩnh, Session, Cookies
 app.use(express.static('public'));
